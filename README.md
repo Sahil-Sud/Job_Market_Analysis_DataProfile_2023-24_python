@@ -177,7 +177,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
-View my notebook with detailed steps here: [4_salary_analysis.ipynb](3_project\4_salary_analysis.ipynb)
+View my notebook with detailed steps here: [4_salary_analysis.ipynb](3_project/4_salary_analysis.ipynb)
 
 
 #### Visualize Data
