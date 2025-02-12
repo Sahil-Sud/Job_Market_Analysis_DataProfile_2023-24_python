@@ -93,7 +93,7 @@ plt.show()
 
 ### Results
 
-![working?](3_project/images/skill_demand_All_data_role.png)
+![](3_project/images/skill_demand_All_data_role.png)
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each*
 ### Insights
 
@@ -114,7 +114,7 @@ df_us_da_pivot_final = df_us_da_pivot.iloc[:,:6].copy()
 df_us_da_pivot_final
 
 ```
-![](3_project\images\top_6_skills_moth_wise.png)
+![](3_project/images/top_6_skills_moth_wise.png)
 
 
 ```python
@@ -124,7 +124,7 @@ da_total_posting
 
 ```
 
-![](3_project\images\job_posting_month_wise.png)
+![](3_project/images/job_posting_month_wise.png)
 
 
 ```python
@@ -135,7 +135,7 @@ df_merge
 
 ```
 
-![](3_project\images\merged_data_frame.png)
+![](3_project/images/merged_data_frame.png)
 
 ```python
 
@@ -144,7 +144,7 @@ df_perc
 
 ```
 
-![](3_project\images\perc_dataframe.png)
+![](3_project/images/perc_dataframe.png)
 
 ### Visualize Data
 
@@ -163,7 +163,7 @@ plt.show()
 
 ```
 ### Result
-![](3_project\images\perc_skill_outof_toalposting.png)
+![](3_project/images/perc_skill_outof_toalposting.png)
 
 ### Insights:
 - SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand by upto 8 percentage point.
@@ -196,7 +196,9 @@ plt.show()
 ```
 #### Result
 
-![](3_project\images\salary_distribution_job_wise.png)*Box plot visualizing the salary distributions for the top 6 data job titles.*
+![](3_project/images/salary_distribution_job_wise.png)
+
+*Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 Insights
 - There's a significant variation in salary ranges across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $500K, indicating the high value placed on advanced data skills and experience in the industry.
@@ -222,7 +224,7 @@ fig.tight_layout()
 plt.show()
 ```
 #### Result
-![](3_project\images\highest_paid_skill_vs_highestPaid_profile.png)
+![](3_project/images/highest_paid_skill_vs_highestPaid_profile.png)
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 Insights:
@@ -257,7 +259,7 @@ plt.show()
 
 #### Result
 
-![](3_project\images\scatter_plot_optimizedSkill_DA.png)
+![](3_project/images/scatter_plot_optimizedSkill_DA.png)
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 Insights:
@@ -293,7 +295,7 @@ plt.show()
 
 #### Results
 
-![](3_project\images\scatter_plot_optimizedSkill_withTech_DA.png)
+![](3_project/images/scatter_plot_optimizedSkill_withTech_DA.png)
 
 #### Insights:
 - The scatter plot reveals that most programming skills (blue) tend to be associated with higher salary levels, suggesting that programming expertise can lead to better pay in data analytics.
