@@ -93,7 +93,7 @@ plt.show()
 
 ### Results
 
-![working?](3_project\images\skill_demand_All_data_role.png)
+![working?](3_project/images/skill_demand_All_data_role.png)
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each*
 ### Insights
 
