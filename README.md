@@ -227,7 +227,7 @@ fig.tight_layout()
 plt.show()
 ```
 #### Result
-![](3_project/images/highest_paid_skill_vs_highestPaid_profile.png)
+![](3_project/images/highest_paid_skill_vs_highestPaid_profile1.png)
 
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
