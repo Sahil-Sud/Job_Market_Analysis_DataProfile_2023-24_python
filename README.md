@@ -94,7 +94,8 @@ plt.show()
 ### Results
 
 ![](3_project/images/skill_demand_All_data_role.png)
-*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each*
+
+*Bar graph visualizing the salary for the top 3 data roles and their top 6 skills associated with each*
 ### Insights
 
 - SQL is the most requested skill for Data Analysts and Data Engineer, with it in over half the job postings for both roles. For Data Scientist, Python is the most sought-after skill, appearing in 72% of job postings followed by SQL.
@@ -137,6 +138,7 @@ df_merge
 
 ![](3_project/images/merged_data_frame.png)
 
+
 ```python
 
 df_perc = round(df_merge.iloc[ : , : -1].div(df_merge['count'], axis= 0) * 100,3) #-----------> dividing each value in a row with corresponding count value 
@@ -145,6 +147,7 @@ df_perc
 ```
 
 ![](3_project/images/perc_dataframe.png)
+
 
 ### Visualize Data
 
@@ -225,6 +228,7 @@ plt.show()
 ```
 #### Result
 ![](3_project/images/highest_paid_skill_vs_highestPaid_profile.png)
+
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 Insights:
@@ -260,6 +264,7 @@ plt.show()
 #### Result
 
 ![](3_project/images/scatter_plot_optimizedSkill_DA.png)
+
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 Insights:
